@@ -1,20 +1,20 @@
 <?php
- //USUWANIE JUŻ WKRÓTCE!
- session_start();
- error_reporting(E_ERROR | E_PARSE); //wyłączenie pokazywanie błędów
+    //USUWANIE JUŻ WKRÓTCE!
+    session_start();
+    error_reporting(E_ERROR | E_PARSE); //wyłączenie pokazywanie błędów
 
- if(($_SESSION['zalogowany']==true)&&($_SESSION['admin']!=1)) //jeśli użytkownik nie jest adminem
-	{
-		header('Location: menuKasFiskalnych.php');
-		exit();
-	}
+    if(($_SESSION['zalogowany']==true)&&($_SESSION['admin']!=1)) //jeśli użytkownik nie jest adminem
+	    {
+		    header('Location: menuKasFiskalnych.php');
+		    exit();
+	    }
 
 
- if($_SESSION['zalogowany']!=true) //jeśli nie jest zalogowany
-	{
-		header('Location: index.php');
-		exit();
-	}
+    if($_SESSION['zalogowany']!=true) //jeśli nie jest zalogowany
+	    {
+		    header('Location: index.php');
+		    exit();
+	    }
     $host = "localhost"; //adres hosta
 	$name = "root";	//nazwa użytkownika
 	$pass = "";	//hasło, jeśli nie ma zostawić puste
