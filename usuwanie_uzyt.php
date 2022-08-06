@@ -1,4 +1,5 @@
 <?php
+	//USUWANIE JUŻ WKRÓTCE!
 	session_start();
 	error_reporting(E_ERROR | E_PARSE); //wyłączenie pokazywanie błędów
 	if((!isset($_SESSION['zalogowany'])) || ($_SESSION['zalogowany']!=true) || $_SESSION['admin']!=1)
