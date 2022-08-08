@@ -1,1 +1,1 @@
-Projekt grupowy, zawodowy z technikum, strona internetowa obsługująca kasy fiskalne
+Projekt grupowy, zawodowy z technikum, strona internetowa obsługująca kasy fiskalne (Mój kod PHP).
