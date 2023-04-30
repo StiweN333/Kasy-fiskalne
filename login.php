@@ -12,7 +12,7 @@
 	$host = "localhost"; //adres hosta
 	$name = "root";	//nazwa użytkownika
 	$pass = "";	//hasło, jeśli nie ma zostawić puste
-	$dbname = "projekt"; //nazwa bazy danych
+	$dbname = "kasy-fiskalne"; //nazwa bazy danych
 	$conn = mysqli_connect($host, $name, $pass, $dbname); //połączenie z bazą danych
 	
 	if(mysqli_connect_errno()) echo "Problemy techniczne, proszę spróbować później."; //wypisz jeśli nie udało się połączyć z bd

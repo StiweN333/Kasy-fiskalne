@@ -6,7 +6,7 @@
 	{
 		header('Location: index.php');
 		exit();
-	}
+	} //sprawdzanie czy uzytkownik jest zalogowany
 
 ?>
 <!DOCTYPE html>
